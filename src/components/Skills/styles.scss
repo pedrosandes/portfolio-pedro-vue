@@ -1,0 +1,30 @@
+.c-skills {
+  @include container;
+  margin: 50px auto;
+  background: $primary-color;
+  padding: 20px;
+
+  @media screen and(max-width: 1050px) {
+    .section-title {
+      margin-bottom: 30px;
+    }
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    @media screen and (max-width: 780px) {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+  .c-skill {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
