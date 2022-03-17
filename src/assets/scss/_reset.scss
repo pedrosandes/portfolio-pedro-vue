@@ -1,0 +1,79 @@
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  @media screen and (max-width: 720px) {
+    font-size: 50.20%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins';
+  font-size: 1.6rem;
+  background-color: $bg-secondary-color;
+  color: $text-primary-color;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: $text-primary-color;
+
+  &:focus {
+  background-color: $accent-color;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none;
+
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+::-moz-selection {
+  color: $text-secondary-color;
+  background: $secondary-color;
+}
+
+::selection{
+  color: $text-secondary-color;
+  background: $secondary-color;
+}
+
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: $large-border-radius;
+  border: 5px solid transparent;
+  background-clip: content-box;
+  background-color: $primary-color
+}
+
+.overflow {
+  overflow: hidden;
+  padding: 0;
+}
