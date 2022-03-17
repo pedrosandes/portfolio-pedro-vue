@@ -1,0 +1,19 @@
+footer {
+  @include container;
+  background: $header-bg-color;
+  padding: 5rem;
+
+  .author {
+    margin-bottom: 1rem;
+  }
+
+  .social {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.9rem;
+    
+    a {
+      display: flex;
+    }
+  }
+}
