@@ -1,0 +1,50 @@
+.c-main {
+  @include container;
+  background: $primary-color;
+  margin: 30px auto 50px auto;
+  display: flex;
+  align-items: center;
+
+  @media screen and(max-width: 1050px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 45%;
+    pointer-events: none;
+    user-select: none;
+    object-fit: cover;
+
+    @media screen and(max-width: 1050px) {
+      width: 100%;
+    }
+  }
+
+  .main-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 50px;
+
+    @media screen and(max-width: 1050px) {
+      align-items: center;
+      margin-right: 0px;
+     }
+
+    button {
+      max-width: 226px;
+    }
+
+    .title {
+      font: $extra-large-text;
+      font-weight: 500;
+      line-height: 4.8rem;
+
+    .decoration-text {
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
+}
+}
