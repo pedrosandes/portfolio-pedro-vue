@@ -1,0 +1,40 @@
+.c-about {
+  @include container;
+  padding: 20px;
+  padding-bottom: 0;
+  background: $primary-color;
+
+  header {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .wrapper {
+    display: flex;
+
+    @media screen and (max-width: 1050px) {
+      flex-direction: column-reverse;
+    }
+
+    .c-texts  {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  
+      .text {
+        font: $small-text;
+      }
+    }
+  }
+
+  .avatar {
+    width: 50%;
+    pointer-events: none;
+    user-select: none;
+    object-fit: cover;
+
+    @media screen and(max-width: 1050px) {
+      width: 100%;
+    }
+  }
+}
