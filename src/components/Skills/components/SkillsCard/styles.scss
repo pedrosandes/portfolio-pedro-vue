@@ -1,0 +1,35 @@
+.c-card {
+  width: 48%;
+  padding: 20px;
+  border: 2px solid $secondary-color;
+  border-radius: $medium-border-radius;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+
+  .c-texts {
+    width: 60%;
+  }
+  
+
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+
+    .c-texts {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1360px){
+    width: 100%;
+  }
+
+
+  figure {
+
+    img {
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+}
