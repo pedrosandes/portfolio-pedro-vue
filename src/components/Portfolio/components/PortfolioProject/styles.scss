@@ -5,9 +5,6 @@
     width: 48%;
     text-align: center;
     border: 2px solid $secondary-color;
-    transition: background-color .4s ease-in-out;
-    transition: border-color .4s ease-in-out;
-
 
     @media screen and (max-width: 1360px){
       width: 100%;
@@ -42,8 +39,6 @@
       margin-bottom: 20px;
       border-radius: $small-border-radius;
 
-     
-
       img {
         width: 100%;
         height: 100%;
@@ -62,9 +57,7 @@
     border: 2px solid transparent;
     border-radius: $small-border-radius;
     cursor: pointer;
-    transition: color .2s ease-in;
-    transition: background-color .4s ease-in;
-    transition: border .4s ease-in-out;
+    transition: all .2s ease-in;
 
     &:hover {
       color: $text-secondary-color;
