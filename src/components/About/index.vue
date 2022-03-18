@@ -17,7 +17,7 @@ export default {
         <div class="c-texts">
           <p class="text">
             Me chamo Pedro Sandes, tenho 18 anos e sou desenvolvedor Front-end.
-            Comecei no mundo da programação no final do ano de 2020, com insentivo 
+            Comecei no mundo da programação no final do ano de 2020, com incentivo 
             do meu irmão que já trabalhava na área de tecnologia, comecei meus estudos 
             com UX/UI e depois partir para HTML e CSS, depois de um tempo estudando sobre 
             essas duas linguagens, conheci uma iniciativa social chamada Estartando Devs onde 
