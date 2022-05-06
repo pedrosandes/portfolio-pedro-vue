@@ -1,4 +1,6 @@
-# portfolio-pedro-vue
+# Meu portfólio
+Projeto desenvolvido em VueJS e Scss. 
+[Link Online](https://pedrosandes.netlify.app/)
 
 ## Project setup
 ```
